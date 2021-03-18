@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Add To Miniflux",
+  "version": "1.0",
+
+  "description": "A Firefox extension to check for RSS and to Miniflux. (Works for only Miniflux Hosting)",
+  "homepage_url": "https://github.com/TaylanTatli/add-to-miniflux",
+  "icons": {
+    "48": "icons/miniflux-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["add-to-miniflux.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/miniflux-32.png",
+    "default_title": "Add To Miniflux"
+  }
+
+}
