@@ -4,7 +4,7 @@
   "name": "Add To Miniflux",
   "version": "1.0",
 
-  "description": "A Firefox extension to check for RSS and to Miniflux. (Works for only Miniflux Hosting)",
+  "description": "Simple Firefox extension. Same as bookmarklet. Works only for Miniflux Hosting url (reader.miniflux.app) because i couldn't manage to create an options page.",
   "homepage_url": "https://github.com/TaylanTatli/add-to-miniflux",
   "icons": {
     "48": "icons/miniflux-48.png"
